@@ -15,9 +15,9 @@ Design Document
 
 ## Team Members and Roles
 
-UI Specialist: James Moore
-Business Logic/Persitence: Devin Williams
-DevOps/Product Owner/Scrum Master/GitHub Admin: Tristan Palmer
+UI Specialist: James Moore  
+Business Logic/Persitence: Devin Williams  
+DevOps/Product Owner/Scrum Master/GitHub Admin: Tristan Palmer  
 
 ## Standup
 
