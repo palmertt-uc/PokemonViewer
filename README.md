@@ -1,11 +1,13 @@
-# Pokemon Viewer
+# PokemonViewer
 Design Document
 
 ## Introduction
 
+The mobile friendly Pokémon web application allows the user to view all of the original Pokémon, including details such as their evolutions, their height, their weight, Pokémon type, etc. Along with this, the user will be able to filter through Pokémon so that instead of having to browse through a long list, the user can simply search, for instance, “Charizard” and receive the expected result of Charizard. All of this can be done either at the comfort of ones home or on the go!
+
 ## Storyboard
 
-## Requirements
+## Functional Requirements
 
 ## Class Diagram
 ![Pokemon-Viewer-Class-Diagram](https://user-images.githubusercontent.com/38698098/92495217-a60d6080-f1c4-11ea-9616-00bf2377f71a.png)
@@ -19,5 +21,15 @@ UI Specialist: James Moore
 Business Logic/Persitence: Devin Williams  
 DevOps/Product Owner/Scrum Master/GitHub Admin: Tristan Palmer  
 
+## Project Link
+
+To view our Github repository, click [here](https://github.com/palmertt-uc/PokemonViewer)
+
+## Scrum/Kanban Board & Product Backlog
+
+To view our product backlog and or the scrum/kanban board, navigate to the "Projects" section of our Github repository.
+
 ## Standup
 
+- Sunday afternoons from 2:00 PM to 2:30 PM
+- Click [here](https://teams.microsoft.com/l/meetup-join/19%3ameeting_YjJlYjA2YWEtMTY5NS00MTlhLWE5ZjYtNzZmNGE2YTE4ODJj%40thread.v2/0?context=%7b%22Tid%22%3a%22f5222e6c-5fc6-48eb-8f03-73db18203b63%22%2c%22Oid%22%3a%22f3fcca4c-d338-4a57-b92c-8f9d0d544b27%22%7d) to access our Microsoft Teams meeting room.
