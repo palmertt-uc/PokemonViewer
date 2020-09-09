@@ -9,6 +9,21 @@ The mobile friendly Pokémon web application allows the user to view all of the 
 
 ## Functional Requirements
 
+- **Requirement 1: Display Pokémon & Associated Details**
+  - As a user, I want to be able to see all of the original Pokémon and the details associated with each Pokémon, so that I can look at a Pokémon and see accurate data.
+  - **Examples**
+    - Given Pokémon data has been fetched from a JSON endpoint properly, when I launch and/or go to PokémonViewer using a laptop or dekstop, then all of the original Pokémon should be displayed in an aesthetically pleasing manner with accurate associated details.
+    - Given Pokémon data has been fetched from a JSON endpoint properly, when I launch and/or go to PokémonViewer on a mobile device, then all of the original Pokémon should be displayed in an aesthetically pleasing manner with accurate associated details.
+    - Given Pokémon data has not been fetched from a JSON endpoint properly, when I launch and/or go to PokémonViewer, then a message and/or text should be displayed and logged giving error information.
+
+- **Requirement 2: Search Pokémon**
+  - As a user, I want to be able to search for a specific Pokémon and see that Pokémon along with associated details, so that I don't have to manually find a Pokémon.
+  - **Examples**
+    - Given Pokémon data has been fetched from a JSON endpoint properly, when I search for Charizard, then I should see a picture of Charizard in the list along with the details associated with Charizard.
+    - Given Pokémon data has been fetched from a JSON endpoint properly, when I search for "burgers", then I nothing should happen.
+    - Given Pokémon data has not been fetched from a JSON endpoint properly, when I search for Golduck, then nothing should happen. 
+    
+  
 ## Class Diagram
 ![Pokemon-Viewer-Class-Diagram](https://user-images.githubusercontent.com/38698098/92495217-a60d6080-f1c4-11ea-9616-00bf2377f71a.png)
 ## Class Diagram Description
