@@ -30,6 +30,28 @@ This mobile friendly Pokémon web application allows the user to view all of the
 
 ## JSON Schema
 
+{
+    "id": 2,
+    "num": "002",
+    "name": "Ivysaur",
+    "img": "http://www.serebii.net/pokemongo/pokemon/002.png",
+    "type": [
+      "Grass",
+      "Poison"
+    ],
+    "height": "0.99 m",
+    "weight": "13.0 kg",
+    "candy": "Bulbasaur Candy",
+    "candy_count": 100,
+    "egg": "Not in Eggs",
+    "spawn_chance": 0.042,
+    "avg_spawns": 4.2,
+    "spawn_time": "07:00",
+    "multipliers": [
+      1.2,
+      1.6
+    ]
+
 ## Team Members and Roles
 
 UI Specialist: James Moore  
