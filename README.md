@@ -24,12 +24,8 @@ The user will also be able to search for a specific Pokémon so that instead of 
   - **Examples**
     - ***Example #1***
       - **GIVEN** Pokémon data has been fetched from a JSON endpoint properly, 
-      - **WHEN** I launch and/or go to PokémonViewer using a laptop or dekstop, 
-      - **THEN** all of the original Pokémon should be displayed in an aesthetically pleasing manner with accurate associated details.
-    - ***Example #2***
-      - **GIVEN** Pokémon data has been fetched from a JSON endpoint properly,
-      - **WHEN** I launch and/or go to PokémonViewer on a mobile device, 
-      - **THEN** all of the original Pokémon should be displayed in an aesthetically pleasing manner with accurate associated details.
+      - **WHEN** I launch and/or go to PokémonViewer using any device connected to the internet, 
+      - **THEN** all of the original Pokémon and associated details should be displayed.
     - ***Example #3***
       - **GIVEN** Pokémon data has not been fetched from a JSON endpoint properly, 
       - **WHEN** I launch and/or go to PokémonViewer, 
@@ -45,7 +41,7 @@ The user will also be able to search for a specific Pokémon so that instead of 
     - ***Example #2***
       - **GIVEN** Pokémon data has been fetched from a JSON endpoint properly, 
       - **WHEN** I search for "burgers", 
-      - **THEN** I nothing should happen.
+      - **THEN** nothing should happen.
     - ***Example #3***
       - **GIVEN** Pokémon data has not been fetched from a JSON endpoint properly, 
       - **WHEN** I search for Golduck, 
