@@ -1,5 +1,9 @@
-# PokemonViewer
-Design Document
+# Design Document: PokemonViewer
+Tristan Palmer
+
+Devin Williams
+
+James Moore
 
 ## Introduction
 
@@ -38,9 +42,9 @@ The user will also be able to search for a specific Pokémon so that instead of 
 
 ## Team Members and Roles
 
-UI Specialist: James Moore  
-Business Logic/Persitence: Devin Williams  
-DevOps/Product Owner/Scrum Master/GitHub Admin: Tristan Palmer  
+UI Specialist: **James Moore**  
+Business Logic/Persitence: **Devin Williams**  
+DevOps/Product Owner/Scrum Master/GitHub Admin: **Tristan Palmer**  
 
 ## Project Link
 
