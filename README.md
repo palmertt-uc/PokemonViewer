@@ -19,20 +19,20 @@ The user will also be able to search for a specific Pokémon so that instead of 
 
 ## Functional Requirements
 
-- **Requirement 1: Display Pokémon & Associated Details**
-  - As a user, I want to be able to see all of the original Pokémon and the details associated with each Pokémon, so that I can look at a Pokémon and see accurate data.
+- **Requirement 1: Display Pokémon Details**
+  - As a user, I want to be able to see the details associated with each Pokémon, so that I can look at a Pokémon and see accurate data.
   - **Examples**
     - ***Example #1***
       - **GIVEN** Pokémon data has been fetched from a JSON endpoint properly, 
-      - **WHEN** I launch and/or go to PokémonViewer using any device connected to the internet, 
-      - **THEN** all of the original Pokémon and associated details should be displayed.
+      - **WHEN** I launch the application, 
+      - **THEN** I should see details associated with the Pokémon.
     - ***Example #3***
       - **GIVEN** Pokémon data has not been fetched from a JSON endpoint properly, 
-      - **WHEN** I launch and/or go to PokémonViewer, 
-      - **THEN** a message and/or text should be displayed and logged giving error information.
+      - **WHEN** I launch the application, 
+      - **THEN** a message and/or text should be displayed and logged to the console giving error information.
 
 - **Requirement 2: Search Pokémon**
-  - As a user, I want to be able to search for a specific Pokémon and see that Pokémon along with associated details, so that I don't have to manually find a Pokémon.
+  - As a user, I want to be able to search for a specific Pokémon, so that I don't have to manually find a Pokémon.
   - **Examples**
     - ***Example #1***
       - **GIVEN** Pokémon data has been fetched from a JSON endpoint properly, 
