@@ -3,7 +3,13 @@ Design Document
 
 ## Introduction
 
-This mobile friendly Pokémon web application allows the user to view all of the original Pokémon, including details such as their evolutions, their height, their weight, Pokémon type, etc. Along with this, the user will be able to search for a specific Pokémon so that instead of having to browse through a long list, the user can simply search, for instance, “Charizard” and receive the expected result of Charizard and the various associated details. All of this can be done either at the comfort of ones home or on the go!
+This mobile friendly Pokémon web application allows the user to view all of the original Pokémon, including their details such as:
+- Evolutions 
+- Height 
+- Weight 
+- Type
+
+Along with this, the user will be able to search for a specific Pokémon so that instead of having to browse through a long list, the user can simply search, for instance, “Charizard” and receive the expected result of Charizard and the various associated details listed above. All of this can be done either at the comfort of ones home or on the go!
 
 ## Storyboard
 
