@@ -54,36 +54,36 @@ The user will also be able to search for a specific Pokémon so that instead of 
 
 ## JSON Schema
 
->{  
->  "type" : "object",  
->   "properties" : {  
->    "pokemonName" : {  
->      "type" : "string"  
->    },  
->    "pokemonId" : {  
->      "type" : "integer"  
->    },  
->    "pokemonWeight" : {  
->      "type" : "integer"  
->    },  
->    "pokemonNum" : {  
->      "type" : "integer"  
->    },  
->    "pokemonWeakness" : [  
->      "type" : "string",  
->      "type" : "string",  
->      "type" : "string",  
->      "type" : "string"  
->    ],  
->    "pokemonHeight" : {  
->      "type" : "integer"  
->    },  
->    "pokemonType" : [  
->      "type" : "string",  
->      "type" : "string"  
->    ]  
->  }  
->}  
+{  
+  "type" : "object",  
+   "properties" : {  
+    "pokemonName" : {  
+      "type" : "string"  
+    },  
+    "pokemonId" : {  
+      "type" : "integer"  
+    },  
+    "pokemonWeight" : {  
+      "type" : "integer"  
+    },  
+    "pokemonNum" : {  
+      "type" : "integer"  
+    },  
+    "pokemonWeakness" : [  
+      "type" : "string",  
+      "type" : "string",  
+      "type" : "string",  
+      "type" : "string"  
+    ],  
+    "pokemonHeight" : {  
+      "type" : "integer"  
+    },  
+    "pokemonType" : [  
+      "type" : "string",  
+      "type" : "string"  
+    ]  
+  }  
+}  
 
 ## Team Members and Roles
 
