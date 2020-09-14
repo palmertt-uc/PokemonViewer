@@ -56,7 +56,7 @@ The user will also be able to search for a specific Pokémon so that instead of 
 
 {  
   "type" : "object",  
-  "properties" : {  
+   "properties" : {  
     "pokemonName" : {  
       "type" : "string"  
     },  
