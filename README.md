@@ -53,7 +53,7 @@ The user will also be able to search for a specific Pokémon so that instead of 
 ## Class Diagram Description
 
 ## JSON Schema
-
+```json
 {  
   "type" : "object",  
    "properties" : {  
@@ -84,7 +84,7 @@ The user will also be able to search for a specific Pokémon so that instead of 
     ]  
   }  
 }  
-
+```
 ## Team Members and Roles
 
 UI Specialist: **James Moore**  
