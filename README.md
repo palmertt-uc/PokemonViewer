@@ -8,9 +8,9 @@ James Moore
 ## Introduction
 
 This mobile friendly Pokémon web application allows the user to view all of the original Pokémon and their details such as:
-- Evolutions 
-- Height 
-- Weight 
+- Pokemon Names 
+- Weaknesses 
+- Spawn Chance 
 - Type
 
 The user will also be able to search for a specific Pokémon so that instead of having to browse through a long list, the user can simply search, for instance, “Charizard” and receive the expected result of Charizard and the various details listed above. All of this can be done either at the comfort of ones home or on the go!
