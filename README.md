@@ -52,6 +52,18 @@ The user will also be able to search for a specific Pokémon so that instead of 
 ![Pokemon Viewer Class Diagram](https://user-images.githubusercontent.com/38698098/93380281-076ca980-f82d-11ea-95bc-8bb27ef96d8d.png)
 ## Class Diagram Description
 
+**PokemonViewerScreen**: This is the main screen where the user will land once they enter the application. This screen will have a list of pokemons, displaying their name, type, weight, height, and more.
+
+**MapOfPokemon**: This will be the interface that will contain a list all the pokemon data that needs to be display.
+
+**NetworkDAO**: This will be the networking that will provide the ability to get the pokemon data from the api.
+
+**Pokemon**: This is a class that will represent pokemon. It will contain different attributes for each pokemon.
+
+**PokemonServiceStub**: This will contain the hardcoded data provided to make the IPokemonService work, if needed.
+
+**PokemonServiceImpl**: This will be doing the work to retrieve the IPokemonDAO that will be getting the data from a network API.
+
 ## JSON Schema
 ```json
 {  
