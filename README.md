@@ -49,7 +49,7 @@ The user will also be able to search for a specific Pokémon so that instead of 
     
   
 ## Class Diagram
-![Pokemon-Viewer-Class-Diagram](https://user-images.githubusercontent.com/38698098/92495217-a60d6080-f1c4-11ea-9616-00bf2377f71a.png)
+![Pokemon Viewer Class Diagram](https://user-images.githubusercontent.com/38698098/93380281-076ca980-f82d-11ea-95bc-8bb27ef96d8d.png)
 ## Class Diagram Description
 
 ## JSON Schema
