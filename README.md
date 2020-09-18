@@ -17,7 +17,7 @@ The user will also be able to search for a specific Pokémon so that instead of 
 
 ## Storyboard
 
-![PokemonViewer Storyboard](https://projects.invisionapp.com/prototype/Enterprise-Development-Storyboard-ckf4cs4jw000eny01hi0t0bs9/play/84d1448b)
+[PokemonViewer Storyboard](https://projects.invisionapp.com/prototype/Enterprise-Development-Storyboard-ckf4cs4jw000eny01hi0t0bs9/play/84d1448b)
 
 ## Functional Requirements
 
