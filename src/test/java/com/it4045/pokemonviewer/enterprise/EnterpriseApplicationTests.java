@@ -5,6 +5,7 @@ import com.it4045.pokemonviewer.enterprise.service.IPokemonService;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
+
 import static org.junit.jupiter.api.Assertions.*;
 
 @SpringBootTest
@@ -15,7 +16,7 @@ class EnterpriseApplicationTests {
     private Pokemon pokemon;
 
     @Test
-    void contextLoads() {
+    public void contextLoads() {
     }
 
     @Test
@@ -23,6 +24,13 @@ class EnterpriseApplicationTests {
         givenPokemonDataIsReadilyAvailable();
         whenSearchPokemonWithNameCharizard();
         thenReturnOnePokemonWithNameCharizard();
+    }
+
+    @Test
+    void fetchPokemonByName_returnsNothing() {
+        givenPokemonDataIsReadilyAvailable();
+        whenSearchPokemonWithNameBurgers();
+        thenReturnNothing();
     }
 
     private void givenPokemonDataIsReadilyAvailable() { }
@@ -34,5 +42,14 @@ class EnterpriseApplicationTests {
 
     private void whenSearchPokemonWithNameCharizard() {
         pokemon = pokemonService.fetchByName("Charizard");
+    }
+
+    private void thenReturnNothing() {
+        String pokemonName = pokemon.getPokemonName();
+        assertNotEquals("Burgers", pokemonName);
+    }
+
+    private void whenSearchPokemonWithNameBurgers() {
+        pokemon = pokemonService.fetchByName("Burgers");
     }
 }
