@@ -23,4 +23,14 @@ class Pokemon {
     private List<String> pokemonWeakness;
     private List<Evolution> pokemonNextEvolution;
     private List<Evolution> pokemonPrevEvolution;
+
+    public Pokemon(){ }
+
+    public Pokemon(String pokemonName, String image, List<String> weakness, List<String> type, String spawnTime) {
+        this.pokemonName = pokemonName;
+        this.pokemonImg = image;
+        this.pokemonWeakness = weakness;
+        this.pokemonType = type;
+        this.pokemonSpawnTime =spawnTime;
+    }
 }
