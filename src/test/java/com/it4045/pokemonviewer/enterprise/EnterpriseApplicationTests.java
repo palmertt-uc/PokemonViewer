@@ -33,6 +33,13 @@ class EnterpriseApplicationTests {
         thenReturnNothing();
     }
 
+    @Test
+    void fetchPokemonByName_returnsCharizardId() {
+        givenPokemonDataIsReadilyAvailable();
+        whenSearchPokemonWithNameCharizard();
+        thenReturnOnePokemonWithNameCharizard();
+    }
+
     private void givenPokemonDataIsReadilyAvailable() { }
 
     private void thenReturnOnePokemonWithNameCharizard() {
@@ -51,5 +58,10 @@ class EnterpriseApplicationTests {
 
     private void whenSearchPokemonWithNameBurgers() {
         pokemon = pokemonService.fetchByName("Burgers");
+    }
+
+    private void thenReturnOnePokemonCharziardWithIdOne() {
+        int pokemonId = pokemon.getPokemonId();
+        assertEquals(5, pokemonId);
     }
 }

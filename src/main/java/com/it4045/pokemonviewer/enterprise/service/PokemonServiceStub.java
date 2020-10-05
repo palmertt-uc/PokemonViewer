@@ -11,6 +11,7 @@ public class PokemonServiceStub implements IPokemonService{
     @Override
     public Pokemon fetchByName(String pokemonName) {
         pokemon.setPokemonName("Charizard");
+        pokemon.setPokemonId(1);
         return pokemon;
     }
 }

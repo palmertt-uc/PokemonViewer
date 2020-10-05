@@ -1,6 +1,9 @@
 package com.it4045.pokemonviewer.enterprise.dto;
 
-public class Evolution {
+import lombok.Data;
+
+public @Data
+class Evolution {
 
     private String evolutionNumber;
     private String pokemonEvolutionName;
