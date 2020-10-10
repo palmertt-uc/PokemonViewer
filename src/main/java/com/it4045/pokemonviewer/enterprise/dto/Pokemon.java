@@ -1,5 +1,6 @@
 package com.it4045.pokemonviewer.enterprise.dto;
 
+import com.it4045.pokemonviewer.enterprise.dto.enums.PokemonType;
 import lombok.Data;
 
 import java.util.List;
@@ -11,7 +12,7 @@ class Pokemon {
     private String pokemonNumber;
     private String pokemonName;
     private String pokemonImg;
-    private List<String> pokemonType;
+    private List<PokemonType> pokemonType;
     private String pokemonHeight;
     private String pokemonWeight;
     private String pokemonCandy;
@@ -25,8 +26,8 @@ class Pokemon {
     private List<Evolution> pokemonPrevEvolution;
 
     public Pokemon(){ }
-
-    public Pokemon(String pokemonName, String image, List<String> weakness, List<String> type, String spawnTime) {
+    
+    public Pokemon(String pokemonName, String image, List<String> weakness, List<PokemonType> type, String spawnTime) {
         this.pokemonName = pokemonName;
         this.pokemonImg = image;
         this.pokemonWeakness = weakness;

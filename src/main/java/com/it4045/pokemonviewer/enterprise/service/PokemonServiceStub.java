@@ -5,6 +5,7 @@ import org.springframework.stereotype.Component;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.concurrent.atomic.AtomicReference;
 
 @Component
 public class PokemonServiceStub implements IPokemonService{
@@ -17,9 +18,15 @@ public class PokemonServiceStub implements IPokemonService{
      */
     @Override
     public Pokemon fetchByName(String pokemonName) {
-        pokemon.setPokemonName("Charizard");
-        pokemon.setPokemonId(1);
-        return pokemon;
+        for( int i = 0; i < pokemonList.size(); i++ ) {
+            if (pokemon.getPokemonName().equals(pokemonName)) {
+                return pokemon;
+            }
+        }
+        return null;
+//      pokemon.setPokemonName("Charizard");
+//      pokemon.setPokemonId(1);
+//      return pokemon;
     }
 
     /**
