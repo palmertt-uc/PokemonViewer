@@ -18,10 +18,14 @@ public class PokemonServiceStub implements IPokemonService{
      */
     @Override
     public Pokemon fetchByName(String pokemonName) {
-        for( int i = 0; i < pokemonList.size(); i++ ) {
-            if (pokemon.getPokemonName().equals(pokemonName)) {
-                return pokemon;
+        try {
+            for (int i = 0; i < pokemonList.size(); i++) {
+                if (pokemon.getPokemonName().equals(pokemonName)) {
+                    return pokemon;
+                }
             }
+        } catch(NullPointerException ex) {
+            throw new NullPointerException(ex.getMessage());
         }
         return null;
 //      pokemon.setPokemonName("Charizard");
