@@ -48,7 +48,9 @@ class EnterpriseApplicationTests {
     }
 
     private void whenSearchPokemonWithNameCharizard() {
+
         pokemon = pokemonService.fetchByName("Charizard");
+        assertEquals("Charizard", pokemon.getPokemonName());
     }
 
     private void thenReturnNothing() {
