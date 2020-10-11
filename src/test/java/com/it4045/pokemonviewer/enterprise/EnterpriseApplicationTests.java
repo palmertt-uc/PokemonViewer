@@ -43,7 +43,7 @@ class EnterpriseApplicationTests {
     private void givenPokemonDataIsReadilyAvailable() { }
 
     private void thenReturnOnePokemonWithNameCharizard() {
-        String pokemonName = pokemon.getPokemonName();
+        String pokemonName = pokemon.getName();
         assertEquals("Charizard", pokemonName);
     }
 
@@ -52,7 +52,7 @@ class EnterpriseApplicationTests {
     }
 
     private void thenReturnNothing() {
-        String pokemonName = pokemon.getPokemonName();
+        String pokemonName = pokemon.getName();
         assertNotEquals("Burgers", pokemonName);
     }
 
@@ -61,7 +61,7 @@ class EnterpriseApplicationTests {
     }
 
     private void thenReturnOnePokemonCharziardWithIdOne() {
-        int pokemonId = pokemon.getPokemonId();
+        int pokemonId = pokemon.getId();
         assertEquals(5, pokemonId);
     }
 }

@@ -2,35 +2,48 @@ package com.it4045.pokemonviewer.enterprise.dto;
 
 import lombok.Data;
 
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 public @Data
 class Pokemon {
 
-    private int pokemonId;
-    private String pokemonNumber;
-    private String pokemonName;
-    private String pokemonImg;
-    private List<String> pokemonType;
-    private String pokemonHeight;
-    private String pokemonWeight;
-    private String pokemonCandy;
-    private String pokemonEgg;
-    private double pokemonSpawnChoice;
-    private double pokemonAvgSpawns;
-    private String pokemonSpawnTime;
-    private List<Double> pokemonMultipliers;
-    private List<String> pokemonWeakness;
-    private List<Evolution> pokemonNextEvolution;
-    private List<Evolution> pokemonPrevEvolution;
+    private int id;
+    private String number;
+    private String name;
+    private String img;
+    private List<String> type;
+    private String height;
+    private String weight;
+    private String candy;
+    private String egg;
+    private double spawnChoice;
+    private double avgSpawns;
+    private String spawnTime;
+    private List<Double> multipliers;
+    private List<String> weakness;
+    private List<Map.Entry<Pokemon, String>> previousEvolution;
+    private List<Map.Entry<Pokemon, String>> nextEvolution;
 
     public Pokemon(){ }
 
-    public Pokemon(String pokemonName, String image, List<String> weakness, List<String> type, String spawnTime) {
-        this.pokemonName = pokemonName;
-        this.pokemonImg = image;
-        this.pokemonWeakness = weakness;
-        this.pokemonType = type;
-        this.pokemonSpawnTime =spawnTime;
+    public Pokemon(String name, String image, List<String> weakness, List<String> type, String spawnTime) {
+        this.name = name;
+        this.img = image;
+        this.weakness = weakness;
+        this.type = type;
+        this.spawnTime =spawnTime;
+    }
+
+    public Pokemon(String name, String image, List<Map.Entry<Pokemon, String>> previousEvolution, List<Map.Entry<Pokemon, String>> nextEvolution) {
+        this.name = name;
+        this.img = image;
+        this.weakness = weakness;
+        this.type = type;
+        this.spawnTime =spawnTime;
+
+        this.previousEvolution = previousEvolution;
+        this.nextEvolution = nextEvolution;
     }
 }
