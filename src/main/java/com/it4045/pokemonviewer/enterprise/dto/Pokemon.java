@@ -8,12 +8,12 @@ public @Data
 class Pokemon {
 
     private int pokemonId;
-    private String pokemonNumber;
+    private int pokemonNumber;
     private String pokemonName;
     private String pokemonImg;
     private List<String> pokemonType;
-    private String pokemonHeight;
-    private String pokemonWeight;
+    private double pokemonHeight;
+    private double pokemonWeight;
     private String pokemonCandy;
     private String pokemonEgg;
     private double pokemonSpawnChoice;

@@ -1,5 +1,6 @@
 package com.it4045.pokemonviewer.enterprise.service;
 
+import com.it4045.pokemonviewer.enterprise.dto.Pokedex;
 import com.it4045.pokemonviewer.enterprise.dto.Pokemon;
 import org.springframework.stereotype.Component;
 
@@ -10,7 +11,7 @@ import java.util.List;
 public class PokemonServiceStub implements IPokemonService{
 
     private final Pokemon pokemon = new Pokemon();
-    private final List<Pokemon> pokemonList = new ArrayList<>();
+    private final Pokedex pokedex = new Pokedex();
 
     /**
      * Currently used in unit tests
@@ -27,6 +28,6 @@ public class PokemonServiceStub implements IPokemonService{
      */
     @Override
     public List<Pokemon> fetchAllPokemon() {
-        return pokemonList;
+        return pokedex.getAllPokemon();
     }
 }

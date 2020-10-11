@@ -6,5 +6,5 @@ import java.util.List;
 public @Data
 class Pokedex {
 
-    private List<Pokemon> pokemon;
+    private List<Pokemon> allPokemon;
 }
