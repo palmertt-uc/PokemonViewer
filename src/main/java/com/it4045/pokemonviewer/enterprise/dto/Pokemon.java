@@ -23,6 +23,7 @@ class Pokemon {
     private List<String> pokemonWeakness;
     private List<Evolution> pokemonNextEvolution;
     private List<Evolution> pokemonPrevEvolution;
+    private List <Pokemon> Pokedex;
 
     public Pokemon(){ }
 
