@@ -17,7 +17,6 @@ public class PokemonServiceStub implements IPokemonService{
     private IPokemonDAO pokemonDAO;
 
     private final Pokemon pokemon = new Pokemon();
-    private final List<Pokemon> pokemonList = new ArrayList<>();
 
     /**
      * Currently used in unit tests
@@ -33,12 +32,4 @@ public class PokemonServiceStub implements IPokemonService{
     public List<Pokemon> fetchPokemons() throws IOException {
         return pokemonDAO.fetchAllPokemons();
     }
-
-    /**
-     * Will be used once Pokemon API is called/connected
-     */
-//    @Override
-//    public List<Pokemon> fetchAllPokemon() {
-//        return pokemonList;
-//    }
 }

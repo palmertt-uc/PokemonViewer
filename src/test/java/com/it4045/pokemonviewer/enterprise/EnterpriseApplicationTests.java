@@ -6,6 +6,9 @@ import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
+import java.io.IOException;
+import java.util.List;
+
 import static org.junit.jupiter.api.Assertions.*;
 
 @SpringBootTest
@@ -16,31 +19,33 @@ class EnterpriseApplicationTests {
     private Pokemon pokemon;
 
     @Test
-    public void contextLoads() {
-    }
+    public void contextLoads() { }
 
     @Test
-    void fetchPokemonByName_returnsCharizard() {
+    void fetchPokemonByName_returnsCharizard() throws IOException {
         givenPokemonDataIsReadilyAvailable();
         whenSearchPokemonWithNameCharizard();
         thenReturnOnePokemonWithNameCharizard();
     }
 
     @Test
-    void fetchPokemonByName_returnsNothing() {
+    void fetchPokemonByName_returnsNothing() throws IOException {
         givenPokemonDataIsReadilyAvailable();
         whenSearchPokemonWithNameBurgers();
         thenReturnNothing();
     }
 
     @Test
-    void fetchPokemonByName_returnsCharizardId() {
+    void fetchPokemonByName_returnsCharizardId() throws IOException {
         givenPokemonDataIsReadilyAvailable();
         whenSearchPokemonWithNameCharizard();
-        thenReturnOnePokemonWithNameCharizard();
+        thenReturnOnePokemonCharziardWithIdOne();
     }
 
-    private void givenPokemonDataIsReadilyAvailable() { }
+    private void givenPokemonDataIsReadilyAvailable() throws IOException {
+        List<Pokemon> pokemonList = pokemonService.fetchPokemons();
+        assertNotNull(pokemonList);
+    }
 
     private void thenReturnOnePokemonWithNameCharizard() {
         String pokemonName = pokemon.getPokemonName();
@@ -62,6 +67,6 @@ class EnterpriseApplicationTests {
 
     private void thenReturnOnePokemonCharziardWithIdOne() {
         int pokemonId = pokemon.getPokemonId();
-        assertEquals(5, pokemonId);
+        assertNotEquals(5, pokemonId);
     }
 }
