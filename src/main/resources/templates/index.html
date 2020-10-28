@@ -19,18 +19,17 @@
     <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
         <ul class="navbar-nav mr-auto mt-2 mt-lg-0"></ul>
         <form class="form-inline my-2 my-lg-0">
-            <input id="filter" class="form-control mr-sm-2" type="text" placeholder="Search Pokemon..." list="pokemon-search">
+            <input id="filter" class="form-control mr-sm-2" type="text" placeholder="Search Pokemon..." list="pokemon-search" onkeyup="search()">
             <datalist id="pokemon-search">
-                <option th:each="pokemon : ${allPokemon}" th:text="${pokemon.name}"></option>
+                <option th:each="pokemon : ${allPokemon}" th:text="${pokemon.name}" th:value="${pokemon.name}"></option>
             </datalist>
-            <button class="btn btn-success my-2 my-sm-0" type="submit">Search</button>
         </form>
     </div>
 </nav>
 
 <div class="container">
     <ul class="list-group list-group-flush bg-transparent" id="myPokemonList" th:each="pokemon : ${allPokemon}">
-        <li class="list-group-item bg-transparent">
+        <li class="list-group-item bg-transparent pokemon">
             <div class="row">
                 <div class="col-sm">
                     <img th:src="${pokemon.img}" class="img-fluid">
@@ -51,6 +50,22 @@
         </li>
     </ul>
 </div>
+
+<script>
+    function search() {
+        let input = document.getElementById('filter').value;
+        input = input.toLowerCase();
+        let x = document.getElementsByClassName('pokemon');
+
+        for (i = 0; i < x.length; i++) {
+            if (!x[i].innerHTML.toLocaleLowerCase().includes(input)) {
+                x[i].style.display = "none";
+            } else {
+                x[i].style.display = "list-item"
+            }
+        }
+    }
+</script>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
