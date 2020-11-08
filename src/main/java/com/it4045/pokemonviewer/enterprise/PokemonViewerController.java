@@ -16,13 +16,23 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
-
+/**
+ * Hero is the main entity we'll be using to . . .
+ *
+ * @author Captain America
+ * Handle all Mapping for Pokemon View
+ */
 @Controller
 public class PokemonViewerController {
 
     @Autowired
     IPokemonService pokemonService;
 
+    /**
+     * <p>This is a simple description of the method.</p>
+     * @param model
+     * @return index.html fire as long as there is no exception
+     */
     @RequestMapping("/")
     public String index(Model model) throws IOException {
         try {
@@ -35,6 +45,11 @@ public class PokemonViewerController {
         }
     }
 
+    /**
+     * <p>This is a simple description of the method.</p>
+     * takes no params
+     * @return A list of pokemon objects from the Pokemon Service class
+     */
     @GetMapping("/pokemons")
     public ResponseEntity getPokemon() {
         try {
