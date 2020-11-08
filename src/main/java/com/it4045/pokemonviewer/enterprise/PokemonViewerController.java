@@ -16,12 +16,15 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
+import java.util.logging.Logger;
 
 @Controller
 public class PokemonViewerController {
 
     @Autowired
     IPokemonService pokemonService;
+
+   // Logger log = (Logger) LoggerFactory.getLogger(this.getClass());
 
     @RequestMapping("/")
     public String index(Model model) throws IOException {
@@ -44,6 +47,16 @@ public class PokemonViewerController {
             return new ResponseEntity(pokemons, headers, HttpStatus.OK);
         } catch (IOException e) {
             e.printStackTrace();
+            return new ResponseEntity(HttpStatus.INTERNAL_SERVER_ERROR);
+        }
+    }
+
+    @DeleteMapping("/pokemons")
+    public ResponseEntity deletePokemon(@PathVariable("id") int id)    {
+        try {
+            pokemonService.delete(id);
+            return new ResponseEntity(HttpStatus.OK);
+        }   catch (Exception e) {
             return new ResponseEntity(HttpStatus.INTERNAL_SERVER_ERROR);
         }
     }

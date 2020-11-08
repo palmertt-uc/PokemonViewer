@@ -23,13 +23,19 @@ public class PokemonServiceStub implements IPokemonService{
      */
     @Override
     public Pokemon fetchByName(String pokemonName) {
-        pokemon.setPokemonName("Charizard");
-        pokemon.setPokemonId(1);
+        pokemon.setName("Charizard");
+        pokemon.setId(1);
+        pokemon.setAvgSpawns(0.31);
         return pokemon;
     }
 
     @Override
     public List<Pokemon> fetchPokemons() throws IOException {
         return pokemonDAO.fetchAllPokemons();
+    }
+
+    @Override
+    public void delete(int id) {
+
     }
 }

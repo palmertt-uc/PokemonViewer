@@ -40,6 +40,7 @@ class EnterpriseApplicationTests {
         givenPokemonDataIsReadilyAvailable();
         whenSearchPokemonWithNameCharizard();
         thenReturnOnePokemonCharziardWithIdOne();
+        thenReturnOnePokemonCharizardWithAvgSpawn();
     }
 
     private void givenPokemonDataIsReadilyAvailable() throws IOException {
@@ -48,7 +49,7 @@ class EnterpriseApplicationTests {
     }
 
     private void thenReturnOnePokemonWithNameCharizard() {
-        String pokemonName = pokemon.getPokemonName();
+        String pokemonName = pokemon.getName();
         assertEquals("Charizard", pokemonName);
     }
 
@@ -57,7 +58,7 @@ class EnterpriseApplicationTests {
     }
 
     private void thenReturnNothing() {
-        String pokemonName = pokemon.getPokemonName();
+        String pokemonName = pokemon.getName();
         assertNotEquals("Burgers", pokemonName);
     }
 
@@ -66,7 +67,12 @@ class EnterpriseApplicationTests {
     }
 
     private void thenReturnOnePokemonCharziardWithIdOne() {
-        int pokemonId = pokemon.getPokemonId();
+        int pokemonId = pokemon.getId();
         assertNotEquals(5, pokemonId);
+    }
+
+    private void thenReturnOnePokemonCharizardWithAvgSpawn()    {
+        double pokemonAvgSpawn = pokemon.getAvgSpawns();
+        assertNotEquals(0.34, pokemonAvgSpawn);
     }
 }

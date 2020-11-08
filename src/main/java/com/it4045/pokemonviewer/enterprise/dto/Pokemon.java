@@ -3,51 +3,52 @@ package com.it4045.pokemonviewer.enterprise.dto;
 import com.google.gson.annotations.SerializedName;
 import lombok.Data;
 
+import java.lang.reflect.Type;
 import java.util.List;
 
 public @Data
 class Pokemon {
 
     @SerializedName("id")
-    private int pokemonId;
+    private int id;
     @SerializedName("num")
-    private String pokemonNumber;
+    private int number;
     @SerializedName("name")
-    private String pokemonName;
+    private String name;
     @SerializedName("img")
-    private String pokemonImg;
+    private String img;
     @SerializedName("type")
-    private List<String> pokemonType;
+    private List<String> type;
     @SerializedName("height")
-    private String pokemonHeight;
+    private double height;
     @SerializedName("weight")
-    private String pokemonWeight;
+    private double weight;
     @SerializedName("candy")
-    private String pokemonCandy;
+    private String candy;
     @SerializedName("egg")
-    private String pokemonEgg;
+    private String egg;
     @SerializedName("spawn_choice")
-    private double pokemonSpawnChoice;
+    private double spawnChoice;
     @SerializedName("avg_spawns")
-    private double pokemonAvgSpawns;
+    private double avgSpawns;
     @SerializedName("spawn_time")
-    private String pokemonSpawnTime;
+    private String spawnTime;
     @SerializedName("multipliers")
-    private List<Double> pokemonMultipliers;
+    private List<Double> multipliers;
     @SerializedName("weakness")
-    private List<String> pokemonWeakness;
+    private List<Weakness> weakness;
     @SerializedName("next_evolution")
-    private List<Evolution> pokemonNextEvolution;
+    private List<Evolution> nextEvolution;
     @SerializedName("prev_evolution")
-    private List<Evolution> pokemonPrevEvolution;
+    private List<Evolution> prevEvolution;
 
     public Pokemon(){ }
 
-    public Pokemon(String pokemonName, String image, List<String> weakness, List<String> type, String spawnTime) {
-        this.pokemonName = pokemonName;
-        this.pokemonImg = image;
-        this.pokemonWeakness = weakness;
-        this.pokemonType = type;
-        this.pokemonSpawnTime =spawnTime;
+    public Pokemon(String name, String image, List<Weakness> weakness, List<String> type, String spawnTime) {
+        this.name = name;
+        this.img = image;
+        this.weakness = weakness;
+        this.type = type;
+        this.spawnTime =spawnTime;
     }
 }
