@@ -6,9 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 import java.io.IOException;
-import java.util.ArrayList;
 import java.util.List;
-import java.util.Map;
 
 @Component
 public class PokemonServiceStub implements IPokemonService{
@@ -31,5 +29,15 @@ public class PokemonServiceStub implements IPokemonService{
     @Override
     public List<Pokemon> fetchPokemons() throws IOException {
         return pokemonDAO.fetchAllPokemons();
+    }
+
+    @Override
+    public void savePokemon(Pokemon pokemon) {
+        pokemonDAO.save(pokemon);
+    }
+
+    @Override
+    public void deletePokemon(int id) {
+        pokemonDAO.delete(id);
     }
 }

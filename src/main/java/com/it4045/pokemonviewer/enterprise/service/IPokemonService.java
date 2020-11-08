@@ -4,10 +4,11 @@ import com.it4045.pokemonviewer.enterprise.dto.Pokemon;
 
 import java.io.IOException;
 import java.util.List;
-import java.util.Map;
 
 public interface IPokemonService {
 
     Pokemon fetchByName(String pokemonName);
     List<Pokemon> fetchPokemons() throws IOException;
+    void savePokemon(Pokemon pokemon);
+    void deletePokemon(int id);
 }

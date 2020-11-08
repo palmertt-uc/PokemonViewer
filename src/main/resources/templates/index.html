@@ -53,9 +53,9 @@
 
 <script>
     function search() {
-        let input = document.getElementById('filter').value;
+        var input = document.getElementById('filter').value;
         input = input.toLowerCase();
-        let x = document.getElementsByClassName('pokemon');
+        var x = document.getElementsByClassName('pokemon');
 
         for (i = 0; i < x.length; i++) {
             if (!x[i].innerHTML.toLocaleLowerCase().includes(input)) {

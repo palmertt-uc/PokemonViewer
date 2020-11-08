@@ -23,4 +23,17 @@ public class PokemonDAO implements IPokemonDAO {
         return pokemonList;
     }
 
+    public Pokemon fetch(int id) {
+
+        return new Pokemon();
+    }
+
+    public Pokemon save(Pokemon pokemon) {
+        return new Pokemon();
+    }
+
+    public void delete(int id) {
+
+    }
+
 }

@@ -8,4 +8,10 @@ import java.util.Map;
 
 public interface IPokemonDAO {
     List<Pokemon> fetchAllPokemons() throws IOException;
+    Pokemon fetch(int id);
+    Pokemon save(Pokemon pokemon);
+    void delete(int id);
 }
+
+
+
