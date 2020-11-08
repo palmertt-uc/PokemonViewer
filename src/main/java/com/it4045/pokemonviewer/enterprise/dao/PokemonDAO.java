@@ -15,11 +15,17 @@ public class PokemonDAO implements IPokemonDAO {
     @Override
     public List<Pokemon> fetchAllPokemons() throws IOException {
         Retrofit retrofitInstance = RetrofitClientInstance.getRetroFitInstance();
+
         IPokemonRetrofitDAO pokemonRetrofitDAO = retrofitInstance.create(IPokemonRetrofitDAO.class);
+
         Call<Map<String, Object>> allPokemons = pokemonRetrofitDAO.getPokemons();
+
         Response<Map<String, Object>> execute = allPokemons.execute();
+
         Map<String, Object> pokemons = execute.body();
+
         List<Pokemon> pokemonList = (List<Pokemon>) pokemons.get("pokemon");
+
         return pokemonList;
     }
 
