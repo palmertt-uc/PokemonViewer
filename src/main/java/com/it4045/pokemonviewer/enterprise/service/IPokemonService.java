@@ -9,5 +9,6 @@ import java.util.Map;
 public interface IPokemonService {
 
     Pokemon fetchByName(String pokemonName);
+    Pokemon fetchByNumber(int pokemonNumber);
     List<Pokemon> fetchPokemons() throws IOException;
 }

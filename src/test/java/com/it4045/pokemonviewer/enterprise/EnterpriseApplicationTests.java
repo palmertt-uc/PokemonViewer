@@ -42,6 +42,20 @@ class EnterpriseApplicationTests {
         thenReturnOnePokemonCharziardWithIdOne();
     }
 
+    @Test
+    void fetchPokemonByNumber_returns() throws IOException {
+        givenPokemonDataIsReadilyAvailable();
+        whenSearchPokemonWithNumberThree();
+        thenReturnOnePokemonWithNumberThree();
+    }
+
+    private void whenSearchPokemonWithNumberThree() { pokemon = pokemonService.fetchByNumber(3); }
+
+    private void thenReturnOnePokemonWithNumberThree() {
+        String pokemonNumber = pokemon.getPokemonNumber();
+        assertEquals("3", pokemonNumber);
+    }
+
     private void givenPokemonDataIsReadilyAvailable() throws IOException {
         List<Pokemon> pokemonList = pokemonService.fetchPokemons();
         assertNotNull(pokemonList);

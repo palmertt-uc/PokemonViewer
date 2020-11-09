@@ -29,6 +29,12 @@ public class PokemonServiceStub implements IPokemonService{
     }
 
     @Override
+    public Pokemon fetchByNumber(int pokemonNumber) {
+        pokemon.setPokemonNumber("3");
+        return pokemon;
+    }
+
+    @Override
     public List<Pokemon> fetchPokemons() throws IOException {
         return pokemonDAO.fetchAllPokemons();
     }
