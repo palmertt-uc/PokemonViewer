@@ -1,0 +1,16 @@
+2020-11-10 11:15:56,710 [INFO] com.it4045.pokemonviewer.enterprise.EnterpriseApplication [main] Starting EnterpriseApplication on tristans-mbp.lan with PID 3598 (/Users/palmertt/Documents/ENT App Development/Final Project/PokemonViewer/target/classes started by palmertt in /Users/palmertt/Documents/ENT App Development/Final Project/PokemonViewer)
+2020-11-10 11:15:56,713 [DEBUG] com.it4045.pokemonviewer.enterprise.EnterpriseApplication [main] Running with Spring Boot v2.3.3.RELEASE, Spring v5.2.8.RELEASE
+2020-11-10 11:15:56,718 [INFO] com.it4045.pokemonviewer.enterprise.EnterpriseApplication [main] No active profile set, falling back to default profiles: default
+2020-11-10 11:15:58,222 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2020-11-10 11:15:58,239 [INFO] org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2020-11-10 11:15:58,240 [INFO] org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-11-10 11:15:58,386 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2020-11-10 11:15:58,388 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1517 ms
+2020-11-10 11:15:58,617 [INFO] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-10 11:15:58,678 [INFO] org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [main] Adding welcome page template: index
+2020-11-10 11:15:58,852 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2020-11-10 11:15:58,866 [INFO] com.it4045.pokemonviewer.enterprise.EnterpriseApplication [main] Started EnterpriseApplication in 2.777 seconds (JVM running for 4.139)
+2020-11-10 11:16:02,227 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-10 11:16:02,227 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2020-11-10 11:16:02,235 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Completed initialization in 7 ms
+2020-11-10 11:16:08,999 [INFO] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
