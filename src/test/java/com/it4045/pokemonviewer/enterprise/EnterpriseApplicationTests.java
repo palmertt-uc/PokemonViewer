@@ -44,6 +44,7 @@ class EnterpriseApplicationTests {
         givenPokemonDataIsReadilyAvailable();
         whenSearchPokemonWithNameCharizard();
         thenReturnOnePokemonCharziardWithIdOne();
+        thenReturnOnePokemonCharizardWithAvgSpawn();
     }
 
     @Test
@@ -86,5 +87,10 @@ class EnterpriseApplicationTests {
     private void thenReturnOnePokemonCharziardWithIdOne() {
         int pokemonId = pokemon.getId();
         assertNotEquals(5, pokemonId);
+    }
+
+    private void thenReturnOnePokemonCharizardWithAvgSpawn()    {
+        double pokemonAvgSpawn = pokemon.getAvgSpawns();
+        assertNotEquals(0.34, pokemonAvgSpawn);
     }
 }

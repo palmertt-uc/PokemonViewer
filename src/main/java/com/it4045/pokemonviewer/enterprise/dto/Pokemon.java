@@ -3,6 +3,7 @@ package com.it4045.pokemonviewer.enterprise.dto;
 import com.google.gson.annotations.SerializedName;
 import lombok.Data;
 
+import java.lang.reflect.Type;
 import java.util.List;
 
 public @Data

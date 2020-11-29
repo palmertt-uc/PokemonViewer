@@ -17,6 +17,9 @@ import org.springframework.web.bind.annotation.*;
 import java.io.IOException;
 import java.util.List;
 
+import java.util.Map;
+import java.util.logging.Logger;
+
 @Controller
 public class PokemonViewerController {
 
@@ -47,6 +50,16 @@ public class PokemonViewerController {
         } catch (IOException e) {
             logger.trace("Pokemons JSON Page IOException exception: " + e);
             e.printStackTrace();
+            return new ResponseEntity(HttpStatus.INTERNAL_SERVER_ERROR);
+        }
+    }
+
+    @DeleteMapping("/pokemons")
+    public ResponseEntity deletePokemon(@PathVariable("id") int id)    {
+        try {
+            pokemonService.delete(id);
+            return new ResponseEntity(HttpStatus.OK);
+        }   catch (Exception e) {
             return new ResponseEntity(HttpStatus.INTERNAL_SERVER_ERROR);
         }
     }
