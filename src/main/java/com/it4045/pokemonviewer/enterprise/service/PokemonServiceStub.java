@@ -27,7 +27,7 @@ public class PokemonServiceStub implements IPokemonService{
 
     @Override
     public Pokemon fetchByNumber(int pokemonNumber) {
-        pokemon.setPokemonNumber("3");
+        pokemon.setNumber("3");
         return pokemon;
     }
 

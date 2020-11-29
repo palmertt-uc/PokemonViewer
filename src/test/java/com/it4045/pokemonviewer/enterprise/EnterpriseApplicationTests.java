@@ -56,7 +56,7 @@ class EnterpriseApplicationTests {
     private void whenSearchPokemonWithNumberThree() { pokemon = pokemonService.fetchByNumber(3); }
 
     private void thenReturnOnePokemonWithNumberThree() {
-        String pokemonNumber = pokemon.getPokemonNumber();
+        String pokemonNumber = pokemon.getNumber();
         assertEquals("3", pokemonNumber);
     }
 
