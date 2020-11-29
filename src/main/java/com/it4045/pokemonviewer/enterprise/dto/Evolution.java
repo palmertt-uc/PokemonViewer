@@ -8,6 +8,7 @@ class Evolution {
 
     @SerializedName("num")
     private String number;
+
     @SerializedName("name")
     private String name;
 }

@@ -22,6 +22,7 @@ public class PokemonServiceStub implements IPokemonService{
     public Pokemon fetchByName(String pokemonName) {
         pokemon.setName("Charizard");
         pokemon.setId(1);
+        pokemon.setAvgSpawns(0.31);
         return pokemon;
     }
 
@@ -34,5 +35,10 @@ public class PokemonServiceStub implements IPokemonService{
     @Override
     public List<Pokemon> fetchPokemons() throws IOException {
         return pokemonDAO.fetchAllPokemons();
+    }
+
+    @Override
+    public void delete(int id) {
+
     }
 }

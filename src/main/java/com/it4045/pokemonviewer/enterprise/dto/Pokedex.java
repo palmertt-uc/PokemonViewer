@@ -8,5 +8,5 @@ public @Data
 class Pokedex {
 
     @SerializedName("pokemon")
-    private List<Pokemon> pokemon;
+    private List<Pokemon> pokemons;
 }

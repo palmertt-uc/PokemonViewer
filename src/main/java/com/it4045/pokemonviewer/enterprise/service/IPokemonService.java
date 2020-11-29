@@ -10,4 +10,6 @@ public interface IPokemonService {
     Pokemon fetchByName(String pokemonName);
     Pokemon fetchByNumber(int pokemonNumber);
     List<Pokemon> fetchPokemons() throws IOException;
+
+    void delete(int id);
 }
