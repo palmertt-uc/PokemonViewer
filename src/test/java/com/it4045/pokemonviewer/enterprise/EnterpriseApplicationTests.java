@@ -5,10 +5,8 @@ import com.it4045.pokemonviewer.enterprise.service.IPokemonService;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
-
 import java.io.IOException;
 import java.util.List;
-
 import static org.junit.jupiter.api.Assertions.*;
 
 @SpringBootTest
@@ -17,9 +15,15 @@ class EnterpriseApplicationTests {
     @Autowired
     private IPokemonService pokemonService;
     private Pokemon pokemon;
+    private final PokemonViewerController pokemonViewerController = new PokemonViewerController();
 
     @Test
     public void contextLoads() { }
+
+    @Test
+    void testPokemonViewerController() {
+        assertNotNull(pokemonViewerController);
+    }
 
     @Test
     void fetchPokemonByName_returnsCharizard() throws IOException {
@@ -48,7 +52,7 @@ class EnterpriseApplicationTests {
     }
 
     private void thenReturnOnePokemonWithNameCharizard() {
-        String pokemonName = pokemon.getPokemonName();
+        String pokemonName = pokemon.getName();
         assertEquals("Charizard", pokemonName);
     }
 
@@ -57,7 +61,7 @@ class EnterpriseApplicationTests {
     }
 
     private void thenReturnNothing() {
-        String pokemonName = pokemon.getPokemonName();
+        String pokemonName = pokemon.getName();
         assertNotEquals("Burgers", pokemonName);
     }
 
@@ -66,7 +70,7 @@ class EnterpriseApplicationTests {
     }
 
     private void thenReturnOnePokemonCharziardWithIdOne() {
-        int pokemonId = pokemon.getPokemonId();
+        int pokemonId = pokemon.getId();
         assertNotEquals(5, pokemonId);
     }
 }

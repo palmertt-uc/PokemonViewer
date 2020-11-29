@@ -7,7 +7,7 @@ public @Data
 class Evolution {
 
     @SerializedName("num")
-    private String evolutionNumber;
+    private String number;
     @SerializedName("name")
-    private String pokemonEvolutionName;
+    private String name;
 }
