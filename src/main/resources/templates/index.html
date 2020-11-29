@@ -2,21 +2,18 @@
 <html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="/styles.css" type="text/css">
+    <link rel="stylesheet" th:href="@{https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css}" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" th:href="@{/styles.css}" type="text/css">
     <title>PokemonViewer - Home</title>
 </head>
 <body>
 
-<!-- Fragment for the navigation bar -->
-<!-- <div th:replace="fragments/navbar :: navbar"></div> -->
-
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <a class="navbar-brand">PokemonViewer</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+    <div class="collapse navbar-collapse" id="navbarToggler">
         <ul class="navbar-nav mr-auto mt-2 mt-lg-0"></ul>
         <form class="form-inline my-2 my-lg-0">
             <input id="filter" class="form-control mr-sm-2" type="text" placeholder="Search Pokemon..." list="pokemon-search" onkeyup="search()">
@@ -32,7 +29,7 @@
         <li class="list-group-item bg-transparent pokemon">
             <div class="row">
                 <div class="col-sm">
-                    <img th:src="${pokemon.img}" class="img-fluid">
+                    <img th:src="${pokemon.img}" class="img-fluid" alt="Pokemon Image">
                 </div>
                 <div class="col-sm">
                     <ul class="mt-4">
@@ -53,24 +50,26 @@
 
 <script>
     function search() {
-        let input = document.getElementById('filter').value;
+        let input = $('#filter').val();
         input = input.toLowerCase();
-        let x = document.getElementsByClassName('pokemon');
 
-        for (i = 0; i < x.length; i++) {
-            if (!x[i].innerHTML.toLocaleLowerCase().includes(input)) {
-                x[i].style.display = "none";
+        let allPokemon = $('.pokemon');
+        allPokemon.each((index,data)=>{
+            data = $(data)
+            if (!data.html().toLowerCase().includes(input)){
+                data.toggle(false)
             } else {
-                x[i].style.display = ""
+                data.toggle(true)
+
             }
-        }
+        });
     }
 </script>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script th:src="@{https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js}"></script>
+<script th:src="@{https://code.jquery.com/jquery-3.3.1.slim.min.js}" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script th:src="@{https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js}" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script th:src="@{https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js}" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
 </body>
 </html>

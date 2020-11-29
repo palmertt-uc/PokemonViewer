@@ -12,17 +12,17 @@ class Pokemon {
     @SerializedName("id")
     private int id;
     @SerializedName("num")
-    private int number;
+    private String number;
     @SerializedName("name")
     private String name;
     @SerializedName("img")
-    private String img;
+    private String image;
     @SerializedName("type")
     private List<String> type;
     @SerializedName("height")
-    private double height;
+    private String height;
     @SerializedName("weight")
-    private double weight;
+    private String weight;
     @SerializedName("candy")
     private String candy;
     @SerializedName("egg")
@@ -36,19 +36,11 @@ class Pokemon {
     @SerializedName("multipliers")
     private List<Double> multipliers;
     @SerializedName("weakness")
-    private List<Weakness> weakness;
+    private List<String> weakness;
     @SerializedName("next_evolution")
     private List<Evolution> nextEvolution;
     @SerializedName("prev_evolution")
     private List<Evolution> prevEvolution;
 
     public Pokemon(){ }
-
-    public Pokemon(String name, String image, List<Weakness> weakness, List<String> type, String spawnTime) {
-        this.name = name;
-        this.img = image;
-        this.weakness = weakness;
-        this.type = type;
-        this.spawnTime =spawnTime;
-    }
 }

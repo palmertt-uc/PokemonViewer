@@ -4,11 +4,8 @@ import com.it4045.pokemonviewer.enterprise.dao.IPokemonDAO;
 import com.it4045.pokemonviewer.enterprise.dto.Pokemon;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
-
 import java.io.IOException;
-import java.util.ArrayList;
 import java.util.List;
-import java.util.Map;
 
 @Component
 public class PokemonServiceStub implements IPokemonService{
@@ -26,6 +23,12 @@ public class PokemonServiceStub implements IPokemonService{
         pokemon.setName("Charizard");
         pokemon.setId(1);
         pokemon.setAvgSpawns(0.31);
+        return pokemon;
+    }
+
+    @Override
+    public Pokemon fetchByNumber(int pokemonNumber) {
+        pokemon.setPokemonNumber("3");
         return pokemon;
     }
 

@@ -1,0 +1,211 @@
+2020-11-10 11:15:56,710 [INFO] com.it4045.pokemonviewer.enterprise.EnterpriseApplication [main] Starting EnterpriseApplication on tristans-mbp.lan with PID 3598 (/Users/palmertt/Documents/ENT App Development/Final Project/PokemonViewer/target/classes started by palmertt in /Users/palmertt/Documents/ENT App Development/Final Project/PokemonViewer)
+2020-11-10 11:15:56,713 [DEBUG] com.it4045.pokemonviewer.enterprise.EnterpriseApplication [main] Running with Spring Boot v2.3.3.RELEASE, Spring v5.2.8.RELEASE
+2020-11-10 11:15:56,718 [INFO] com.it4045.pokemonviewer.enterprise.EnterpriseApplication [main] No active profile set, falling back to default profiles: default
+2020-11-10 11:15:58,222 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2020-11-10 11:15:58,239 [INFO] org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2020-11-10 11:15:58,240 [INFO] org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-11-10 11:15:58,386 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2020-11-10 11:15:58,388 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1517 ms
+2020-11-10 11:15:58,617 [INFO] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-10 11:15:58,678 [INFO] org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [main] Adding welcome page template: index
+2020-11-10 11:15:58,852 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2020-11-10 11:15:58,866 [INFO] com.it4045.pokemonviewer.enterprise.EnterpriseApplication [main] Started EnterpriseApplication in 2.777 seconds (JVM running for 4.139)
+2020-11-10 11:16:02,227 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-10 11:16:02,227 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2020-11-10 11:16:02,235 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Completed initialization in 7 ms
+2020-11-10 11:16:08,999 [INFO] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-11-10 11:18:11,769 [INFO] com.it4045.pokemonviewer.enterprise.EnterpriseApplication [main] Starting EnterpriseApplication on tristans-mbp.lan with PID 3640 (/Users/palmertt/Documents/ENT App Development/Final Project/PokemonViewer/target/classes started by palmertt in /Users/palmertt/Documents/ENT App Development/Final Project/PokemonViewer)
+2020-11-10 11:18:11,771 [DEBUG] com.it4045.pokemonviewer.enterprise.EnterpriseApplication [main] Running with Spring Boot v2.3.3.RELEASE, Spring v5.2.8.RELEASE
+2020-11-10 11:18:11,773 [INFO] com.it4045.pokemonviewer.enterprise.EnterpriseApplication [main] No active profile set, falling back to default profiles: default
+2020-11-10 11:18:13,095 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2020-11-10 11:18:13,114 [INFO] org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2020-11-10 11:18:13,115 [INFO] org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-11-10 11:18:13,205 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2020-11-10 11:18:13,205 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1355 ms
+2020-11-10 11:18:13,371 [INFO] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-10 11:18:13,446 [INFO] org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [main] Adding welcome page template: index
+2020-11-10 11:18:13,625 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2020-11-10 11:18:13,640 [INFO] com.it4045.pokemonviewer.enterprise.EnterpriseApplication [main] Started EnterpriseApplication in 2.281 seconds (JVM running for 3.655)
+2020-11-10 11:18:18,378 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-10 11:18:18,379 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2020-11-10 11:18:18,387 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Completed initialization in 7 ms
+2020-11-10 11:18:34,414 [INFO] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-11-10 11:27:01,654 [INFO] com.it4045.pokemonviewer.enterprise.EnterpriseApplication [main] Starting EnterpriseApplication on tristans-mbp.lan with PID 3762 (/Users/palmertt/Documents/ENT App Development/Final Project/PokemonViewer/target/classes started by palmertt in /Users/palmertt/Documents/ENT App Development/Final Project/PokemonViewer)
+2020-11-10 11:27:01,657 [DEBUG] com.it4045.pokemonviewer.enterprise.EnterpriseApplication [main] Running with Spring Boot v2.3.3.RELEASE, Spring v5.2.8.RELEASE
+2020-11-10 11:27:01,658 [INFO] com.it4045.pokemonviewer.enterprise.EnterpriseApplication [main] No active profile set, falling back to default profiles: default
+2020-11-10 11:27:03,138 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2020-11-10 11:27:03,148 [INFO] org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2020-11-10 11:27:03,149 [INFO] org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-11-10 11:27:03,216 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2020-11-10 11:27:03,216 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1471 ms
+2020-11-10 11:27:03,377 [INFO] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-10 11:27:03,451 [INFO] org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [main] Adding welcome page template: index
+2020-11-10 11:27:03,633 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2020-11-10 11:27:03,647 [INFO] com.it4045.pokemonviewer.enterprise.EnterpriseApplication [main] Started EnterpriseApplication in 2.409 seconds (JVM running for 3.887)
+2020-11-10 11:27:08,641 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-10 11:27:08,643 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2020-11-10 11:27:08,652 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Completed initialization in 8 ms
+2020-11-10 11:27:23,916 [INFO] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-11-10 11:30:55,413 [INFO] com.it4045.pokemonviewer.enterprise.EnterpriseApplication [main] Starting EnterpriseApplication on tristans-mbp.lan with PID 3846 (/Users/palmertt/Documents/ENT App Development/Final Project/PokemonViewer/target/classes started by palmertt in /Users/palmertt/Documents/ENT App Development/Final Project/PokemonViewer)
+2020-11-10 11:30:55,417 [DEBUG] com.it4045.pokemonviewer.enterprise.EnterpriseApplication [main] Running with Spring Boot v2.3.3.RELEASE, Spring v5.2.8.RELEASE
+2020-11-10 11:30:55,418 [INFO] com.it4045.pokemonviewer.enterprise.EnterpriseApplication [main] No active profile set, falling back to default profiles: default
+2020-11-10 11:30:56,701 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2020-11-10 11:30:56,712 [INFO] org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2020-11-10 11:30:56,712 [INFO] org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-11-10 11:30:56,819 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2020-11-10 11:30:56,820 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1307 ms
+2020-11-10 11:30:57,089 [INFO] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-10 11:30:57,160 [INFO] org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [main] Adding welcome page template: index
+2020-11-10 11:30:57,361 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2020-11-10 11:30:57,373 [INFO] com.it4045.pokemonviewer.enterprise.EnterpriseApplication [main] Started EnterpriseApplication in 2.735 seconds (JVM running for 4.177)
+2020-11-10 11:30:59,878 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-10 11:30:59,880 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2020-11-10 11:30:59,893 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Completed initialization in 12 ms
+2020-11-10 11:33:47,606 [INFO] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-11-10 11:34:10,027 [INFO] com.it4045.pokemonviewer.enterprise.EnterpriseApplication [main] Starting EnterpriseApplication on tristans-mbp.lan with PID 3951 (/Users/palmertt/Documents/ENT App Development/Final Project/PokemonViewer/target/classes started by palmertt in /Users/palmertt/Documents/ENT App Development/Final Project/PokemonViewer)
+2020-11-10 11:34:10,030 [DEBUG] com.it4045.pokemonviewer.enterprise.EnterpriseApplication [main] Running with Spring Boot v2.3.3.RELEASE, Spring v5.2.8.RELEASE
+2020-11-10 11:34:10,030 [INFO] com.it4045.pokemonviewer.enterprise.EnterpriseApplication [main] No active profile set, falling back to default profiles: default
+2020-11-10 11:34:11,144 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2020-11-10 11:34:11,153 [INFO] org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2020-11-10 11:34:11,154 [INFO] org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-11-10 11:34:11,256 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2020-11-10 11:34:11,256 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1148 ms
+2020-11-10 11:34:11,486 [INFO] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-10 11:34:11,545 [INFO] org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [main] Adding welcome page template: index
+2020-11-10 11:34:11,790 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2020-11-10 11:34:11,805 [INFO] com.it4045.pokemonviewer.enterprise.EnterpriseApplication [main] Started EnterpriseApplication in 2.186 seconds (JVM running for 3.756)
+2020-11-10 11:34:14,903 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-10 11:34:14,904 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2020-11-10 11:34:14,911 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Completed initialization in 7 ms
+2020-11-10 11:34:25,783 [INFO] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-11-10 11:35:50,219 [INFO] com.it4045.pokemonviewer.enterprise.EnterpriseApplication [main] Starting EnterpriseApplication on tristans-mbp.lan with PID 3977 (/Users/palmertt/Documents/ENT App Development/Final Project/PokemonViewer/target/classes started by palmertt in /Users/palmertt/Documents/ENT App Development/Final Project/PokemonViewer)
+2020-11-10 11:35:50,227 [DEBUG] com.it4045.pokemonviewer.enterprise.EnterpriseApplication [main] Running with Spring Boot v2.3.3.RELEASE, Spring v5.2.8.RELEASE
+2020-11-10 11:35:50,228 [INFO] com.it4045.pokemonviewer.enterprise.EnterpriseApplication [main] No active profile set, falling back to default profiles: default
+2020-11-10 11:35:51,531 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2020-11-10 11:35:51,542 [INFO] org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2020-11-10 11:35:51,543 [INFO] org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-11-10 11:35:51,637 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2020-11-10 11:35:51,637 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1222 ms
+2020-11-10 11:35:51,776 [INFO] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-10 11:35:51,846 [INFO] org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [main] Adding welcome page template: index
+2020-11-10 11:35:51,984 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2020-11-10 11:35:52,003 [INFO] com.it4045.pokemonviewer.enterprise.EnterpriseApplication [main] Started EnterpriseApplication in 2.308 seconds (JVM running for 3.691)
+2020-11-10 11:35:57,417 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-10 11:35:57,418 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2020-11-10 11:35:57,423 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Completed initialization in 5 ms
+2020-11-10 11:36:05,964 [INFO] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-11-10 11:36:31,523 [INFO] com.it4045.pokemonviewer.enterprise.EnterpriseApplication [main] Starting EnterpriseApplication on tristans-mbp.lan with PID 3998 (/Users/palmertt/Documents/ENT App Development/Final Project/PokemonViewer/target/classes started by palmertt in /Users/palmertt/Documents/ENT App Development/Final Project/PokemonViewer)
+2020-11-10 11:36:31,527 [DEBUG] com.it4045.pokemonviewer.enterprise.EnterpriseApplication [main] Running with Spring Boot v2.3.3.RELEASE, Spring v5.2.8.RELEASE
+2020-11-10 11:36:31,529 [INFO] com.it4045.pokemonviewer.enterprise.EnterpriseApplication [main] No active profile set, falling back to default profiles: default
+2020-11-10 11:36:33,033 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2020-11-10 11:36:33,049 [INFO] org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2020-11-10 11:36:33,049 [INFO] org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-11-10 11:36:33,110 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2020-11-10 11:36:33,110 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1510 ms
+2020-11-10 11:36:33,244 [INFO] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-10 11:36:33,301 [INFO] org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [main] Adding welcome page template: index
+2020-11-10 11:36:33,444 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2020-11-10 11:36:33,459 [INFO] com.it4045.pokemonviewer.enterprise.EnterpriseApplication [main] Started EnterpriseApplication in 2.454 seconds (JVM running for 3.909)
+2020-11-10 11:36:37,313 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-10 11:36:37,314 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2020-11-10 11:36:37,321 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Completed initialization in 6 ms
+2020-11-10 11:36:54,761 [INFO] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-11-10 11:37:00,231 [INFO] com.it4045.pokemonviewer.enterprise.EnterpriseApplication [main] Starting EnterpriseApplication on tristans-mbp.lan with PID 4004 (/Users/palmertt/Documents/ENT App Development/Final Project/PokemonViewer/target/classes started by palmertt in /Users/palmertt/Documents/ENT App Development/Final Project/PokemonViewer)
+2020-11-10 11:37:00,235 [DEBUG] com.it4045.pokemonviewer.enterprise.EnterpriseApplication [main] Running with Spring Boot v2.3.3.RELEASE, Spring v5.2.8.RELEASE
+2020-11-10 11:37:00,236 [INFO] com.it4045.pokemonviewer.enterprise.EnterpriseApplication [main] No active profile set, falling back to default profiles: default
+2020-11-10 11:37:01,335 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2020-11-10 11:37:01,342 [INFO] org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2020-11-10 11:37:01,343 [INFO] org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-11-10 11:37:01,392 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2020-11-10 11:37:01,393 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1077 ms
+2020-11-10 11:37:01,526 [INFO] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-10 11:37:01,598 [INFO] org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [main] Adding welcome page template: index
+2020-11-10 11:37:01,754 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2020-11-10 11:37:01,767 [INFO] com.it4045.pokemonviewer.enterprise.EnterpriseApplication [main] Started EnterpriseApplication in 1.968 seconds (JVM running for 3.268)
+2020-11-10 11:37:05,641 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-10 11:37:05,642 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2020-11-10 11:37:05,650 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Completed initialization in 8 ms
+2020-11-10 11:37:12,591 [INFO] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-11-10 11:39:16,843 [INFO] com.it4045.pokemonviewer.enterprise.EnterpriseApplication [main] Starting EnterpriseApplication on tristans-mbp.lan with PID 4023 (/Users/palmertt/Documents/ENT App Development/Final Project/PokemonViewer/target/classes started by palmertt in /Users/palmertt/Documents/ENT App Development/Final Project/PokemonViewer)
+2020-11-10 11:39:16,846 [DEBUG] com.it4045.pokemonviewer.enterprise.EnterpriseApplication [main] Running with Spring Boot v2.3.3.RELEASE, Spring v5.2.8.RELEASE
+2020-11-10 11:39:16,847 [INFO] com.it4045.pokemonviewer.enterprise.EnterpriseApplication [main] No active profile set, falling back to default profiles: default
+2020-11-10 11:39:18,280 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2020-11-10 11:39:18,288 [INFO] org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2020-11-10 11:39:18,288 [INFO] org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-11-10 11:39:18,341 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2020-11-10 11:39:18,342 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1436 ms
+2020-11-10 11:39:18,483 [INFO] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-10 11:39:18,555 [INFO] org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [main] Adding welcome page template: index
+2020-11-10 11:39:18,724 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2020-11-10 11:39:18,737 [INFO] com.it4045.pokemonviewer.enterprise.EnterpriseApplication [main] Started EnterpriseApplication in 2.754 seconds (JVM running for 4.632)
+2020-11-10 11:39:21,737 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-10 11:39:21,738 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2020-11-10 11:39:21,745 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Completed initialization in 7 ms
+2020-11-10 11:39:28,587 [INFO] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-11-10 11:51:08,481 [INFO] com.it4045.pokemonviewer.enterprise.EnterpriseApplicationTests [main] Starting EnterpriseApplicationTests on tristans-mbp.lan with PID 4204 (started by palmertt in /Users/palmertt/Documents/ENT App Development/Final Project/PokemonViewer)
+2020-11-10 11:51:08,483 [DEBUG] com.it4045.pokemonviewer.enterprise.EnterpriseApplicationTests [main] Running with Spring Boot v2.3.3.RELEASE, Spring v5.2.8.RELEASE
+2020-11-10 11:51:08,484 [INFO] com.it4045.pokemonviewer.enterprise.EnterpriseApplicationTests [main] No active profile set, falling back to default profiles: default
+2020-11-10 11:51:09,971 [INFO] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-10 11:51:10,117 [INFO] org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [main] Adding welcome page template: index
+2020-11-10 11:51:10,446 [INFO] com.it4045.pokemonviewer.enterprise.EnterpriseApplicationTests [main] Started EnterpriseApplicationTests in 2.504 seconds (JVM running for 5.083)
+2020-11-10 11:51:12,495 [INFO] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-11-10 11:51:38,540 [INFO] com.it4045.pokemonviewer.enterprise.EnterpriseApplicationTests [main] Starting EnterpriseApplicationTests on tristans-mbp.lan with PID 4207 (started by palmertt in /Users/palmertt/Documents/ENT App Development/Final Project/PokemonViewer)
+2020-11-10 11:51:38,541 [DEBUG] com.it4045.pokemonviewer.enterprise.EnterpriseApplicationTests [main] Running with Spring Boot v2.3.3.RELEASE, Spring v5.2.8.RELEASE
+2020-11-10 11:51:38,542 [INFO] com.it4045.pokemonviewer.enterprise.EnterpriseApplicationTests [main] No active profile set, falling back to default profiles: default
+2020-11-10 11:51:40,228 [INFO] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-10 11:51:40,370 [INFO] org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [main] Adding welcome page template: index
+2020-11-10 11:51:41,021 [INFO] com.it4045.pokemonviewer.enterprise.EnterpriseApplicationTests [main] Started EnterpriseApplicationTests in 3.083 seconds (JVM running for 7.23)
+2020-11-10 11:51:50,165 [INFO] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-11-10 11:52:45,362 [INFO] com.it4045.pokemonviewer.enterprise.EnterpriseApplicationTests [main] Starting EnterpriseApplicationTests on tristans-mbp.lan with PID 4254 (started by palmertt in /Users/palmertt/Documents/ENT App Development/Final Project/PokemonViewer)
+2020-11-10 11:52:45,369 [DEBUG] com.it4045.pokemonviewer.enterprise.EnterpriseApplicationTests [main] Running with Spring Boot v2.3.3.RELEASE, Spring v5.2.8.RELEASE
+2020-11-10 11:52:45,371 [INFO] com.it4045.pokemonviewer.enterprise.EnterpriseApplicationTests [main] No active profile set, falling back to default profiles: default
+2020-11-10 11:52:46,895 [INFO] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-10 11:52:47,052 [INFO] org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [main] Adding welcome page template: index
+2020-11-10 11:52:47,572 [INFO] com.it4045.pokemonviewer.enterprise.EnterpriseApplicationTests [main] Started EnterpriseApplicationTests in 3.017 seconds (JVM running for 5.502)
+2020-11-10 11:52:48,929 [INFO] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-11-10 11:59:39,198 [INFO] com.it4045.pokemonviewer.enterprise.EnterpriseApplicationTests [main] Starting EnterpriseApplicationTests on tristans-mbp.lan with PID 4361 (started by palmertt in /Users/palmertt/Documents/ENT App Development/Final Project/PokemonViewer)
+2020-11-10 11:59:39,205 [DEBUG] com.it4045.pokemonviewer.enterprise.EnterpriseApplicationTests [main] Running with Spring Boot v2.3.3.RELEASE, Spring v5.2.8.RELEASE
+2020-11-10 11:59:39,207 [INFO] com.it4045.pokemonviewer.enterprise.EnterpriseApplicationTests [main] No active profile set, falling back to default profiles: default
+2020-11-10 11:59:42,023 [INFO] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-10 11:59:42,178 [INFO] org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [main] Adding welcome page template: index
+2020-11-10 11:59:42,742 [INFO] com.it4045.pokemonviewer.enterprise.EnterpriseApplicationTests [main] Started EnterpriseApplicationTests in 4.544 seconds (JVM running for 9.121)
+2020-11-10 11:59:45,579 [INFO] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-11-10 12:03:38,990 [INFO] com.it4045.pokemonviewer.enterprise.EnterpriseApplicationTests [main] Starting EnterpriseApplicationTests on tristans-mbp.lan with PID 4525 (started by palmertt in /Users/palmertt/Documents/ENT App Development/Final Project/PokemonViewer)
+2020-11-10 12:03:38,994 [DEBUG] com.it4045.pokemonviewer.enterprise.EnterpriseApplicationTests [main] Running with Spring Boot v2.3.3.RELEASE, Spring v5.2.8.RELEASE
+2020-11-10 12:03:38,995 [INFO] com.it4045.pokemonviewer.enterprise.EnterpriseApplicationTests [main] No active profile set, falling back to default profiles: default
+2020-11-10 12:03:40,767 [INFO] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-10 12:03:40,890 [INFO] org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [main] Adding welcome page template: index
+2020-11-10 12:03:41,229 [INFO] com.it4045.pokemonviewer.enterprise.EnterpriseApplicationTests [main] Started EnterpriseApplicationTests in 3.163 seconds (JVM running for 6.405)
+2020-11-10 12:03:42,603 [INFO] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-11-10 12:03:52,214 [INFO] com.it4045.pokemonviewer.enterprise.EnterpriseApplication [main] Starting EnterpriseApplication on tristans-mbp.lan with PID 4530 (/Users/palmertt/Documents/ENT App Development/Final Project/PokemonViewer/target/classes started by palmertt in /Users/palmertt/Documents/ENT App Development/Final Project/PokemonViewer)
+2020-11-10 12:03:52,241 [DEBUG] com.it4045.pokemonviewer.enterprise.EnterpriseApplication [main] Running with Spring Boot v2.3.3.RELEASE, Spring v5.2.8.RELEASE
+2020-11-10 12:03:52,242 [INFO] com.it4045.pokemonviewer.enterprise.EnterpriseApplication [main] No active profile set, falling back to default profiles: default
+2020-11-10 12:03:53,329 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2020-11-10 12:03:53,340 [INFO] org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2020-11-10 12:03:53,340 [INFO] org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-11-10 12:03:53,494 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2020-11-10 12:03:53,494 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1194 ms
+2020-11-10 12:03:53,667 [INFO] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-10 12:03:53,711 [INFO] org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [main] Adding welcome page template: index
+2020-11-10 12:03:53,849 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2020-11-10 12:03:53,860 [INFO] com.it4045.pokemonviewer.enterprise.EnterpriseApplication [main] Started EnterpriseApplication in 2.054 seconds (JVM running for 3.432)
+2020-11-10 12:03:56,819 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-10 12:03:56,836 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2020-11-10 12:03:56,879 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Completed initialization in 43 ms
+2020-11-10 12:04:08,413 [INFO] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-11-10 12:06:41,709 [INFO] com.it4045.pokemonviewer.enterprise.EnterpriseApplication [main] Starting EnterpriseApplication on tristans-mbp.lan with PID 4545 (/Users/palmertt/Documents/ENT App Development/Final Project/PokemonViewer/target/classes started by palmertt in /Users/palmertt/Documents/ENT App Development/Final Project/PokemonViewer)
+2020-11-10 12:06:41,713 [DEBUG] com.it4045.pokemonviewer.enterprise.EnterpriseApplication [main] Running with Spring Boot v2.3.3.RELEASE, Spring v5.2.8.RELEASE
+2020-11-10 12:06:41,718 [INFO] com.it4045.pokemonviewer.enterprise.EnterpriseApplication [main] No active profile set, falling back to default profiles: default
+2020-11-10 12:06:42,953 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2020-11-10 12:06:42,965 [INFO] org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2020-11-10 12:06:42,965 [INFO] org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-11-10 12:06:43,037 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2020-11-10 12:06:43,037 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1228 ms
+2020-11-10 12:06:43,201 [INFO] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-10 12:06:43,279 [INFO] org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [main] Adding welcome page template: index
+2020-11-10 12:06:43,489 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2020-11-10 12:06:43,506 [INFO] com.it4045.pokemonviewer.enterprise.EnterpriseApplication [main] Started EnterpriseApplication in 2.442 seconds (JVM running for 4.204)
+2020-11-10 12:06:46,926 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-10 12:06:46,927 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2020-11-10 12:06:46,934 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Completed initialization in 7 ms
+2020-11-10 12:07:04,488 [INFO] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'

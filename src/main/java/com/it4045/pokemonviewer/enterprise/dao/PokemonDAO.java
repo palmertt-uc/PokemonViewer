@@ -5,7 +5,6 @@ import org.springframework.stereotype.Repository;
 import retrofit2.Response;
 import retrofit2.Retrofit;
 import retrofit2.Call;
-
 import java.io.IOException;
 import java.util.List;
 import java.util.Map;
