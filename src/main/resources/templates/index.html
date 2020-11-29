@@ -10,10 +10,10 @@
 
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <a class="navbar-brand">PokemonViewer</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+    <div class="collapse navbar-collapse" id="navbarToggler">
         <ul class="navbar-nav mr-auto mt-2 mt-lg-0"></ul>
         <form class="form-inline my-2 my-lg-0">
             <input id="filter" class="form-control mr-sm-2" type="text" placeholder="Search Pokemon..." list="pokemon-search" onkeyup="search()">
@@ -50,17 +50,19 @@
 
 <script>
     function search() {
-        let input = document.getElementById('filter').value;
+        let input = $('#filter').val();
         input = input.toLowerCase();
-        let pokemon = document.getElementsByClassName('pokemon');
 
-        for (let i = 0; i < pokemon.length; i++) {
-            if (!pokemon[i].innerHTML.toLocaleLowerCase().includes(input)) {
-                pokemon[i].style.display = "none";
+        let allPokemon = $('.pokemon');
+        allPokemon.each((index,data)=>{
+            data = $(data)
+            if (!data.html().toLowerCase().includes(input)){
+                data.toggle(false)
             } else {
-                pokemon[i].style.display = ""
+                data.toggle(true)
+
             }
-        }
+        });
     }
 </script>
 
