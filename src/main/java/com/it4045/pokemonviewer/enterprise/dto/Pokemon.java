@@ -36,7 +36,7 @@ class Pokemon {
     @SerializedName("multipliers")
     private List<Double> multipliers;
     @SerializedName("weakness")
-    private List<String> weakness;
+    private List<Weakness> weakness;
     @SerializedName("next_evolution")
     private List<Evolution> nextEvolution;
     @SerializedName("prev_evolution")
